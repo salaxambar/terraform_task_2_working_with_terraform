@@ -22,3 +22,4 @@ variable "blob_name" {
   type    = string
   default = "example-blob-name"
 }
+

@@ -27,3 +27,4 @@ resource "azurerm_storage_blob" "example" {
   source                 = "terraform_code.zip"
   depends_on             = [azurerm_storage_container.example]
 }
+
